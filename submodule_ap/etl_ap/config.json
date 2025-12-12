@@ -1,0 +1,26 @@
+{	"db":{
+		"host":"3.133.21.126",
+		"port":"5432",
+		"user":"ladm",
+		"password":"123456",
+		"db_name":"arfw_etl_ap"
+	},
+	"interlis": {
+		"nombre_archivo_xtf": "dag_ap.xtf",
+		"nombre_modelo": "LADM_COL_v_1_0_0_Ext_AP"
+	},
+	"logs": {
+		"nombre_etl": "LADM-AP"
+	},
+	"data_workflow": {
+		"etl_sql_module_dir": "dags.dag_ap.etl_ap_sql"
+	},
+	"insumos_web":{
+		"area_protegida":"https://storage.googleapis.com/pnn_geodatabase/runap/latest.zip",
+		"informacion_runap":"https://runapadmin.parquesnacionales.gov.co/default/reportes/reportedane"
+	},
+	"insumos_local":{
+		"area_protegida":"/insumos/area_protegida/latest.zip",
+		"informacion_runap":"/insumos/informacion_runap/reporte_dane_2025-07-09.xlsx"
+	}		
+}
